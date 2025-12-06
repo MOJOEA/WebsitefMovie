@@ -55,14 +55,14 @@ main {
     box-shadow: 0 0 20px #778899;
 
     width: 75%; 
-    max-width: 1200px;
-    height: 300px;
+    max-width: 1500px;
+    height: 350px;
     padding: 30px;
 
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
 
     overflow-x: auto;
     overflow-y: hidden;
@@ -106,7 +106,7 @@ main {
     height: 30px;
     color: #909090;             
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /*------------------------------------------------------*/
@@ -132,8 +132,18 @@ main {
 /*------------------------------------------------------*/
 #movie1 {
     background-image: url('img/movie_Show1.png');
-    background-size: cover;
-    background-position: center;
+}
+#movie2 {
+    background-image: url('img/movie_Show2.png');
+}
+#movie3 {
+    background-image: url('img/movie_Show3.png');
+}
+#movie4 {
+    background-image: url('img/movie_Show4.png');
+}
+#movie5 {
+    background-image: url('img/movie_Show5.png');
 }
 
 

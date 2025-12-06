@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeMovie</title>
     <link rel="stylesheet" href="Homemovie.css">
-    <script src="public/Homemovie_script.js" defer></script>
+    <script src="Homemovie_script.js" defer></script>
     <!--http://localhost/WebsiteMovie/pubilc/Homemovie.html-->
 </head>
 <body>
@@ -13,14 +13,19 @@
         <button class="nav-button" ib="Logout-btn" >Logout</button>
         <button class="nav-button" ib="Profile-btn">Profile</button>
     </nav>
-    <main>
-        <div class="main-container" id="mainContainer"></div>
-
+    <div class="main-container" id="mainContainer">
+        <div class="box-movie">
+            <div class="img-movie-box" id="movie1"></div>
+            <button class="box-movie-btn" name="Watch_btn" id="Watch1">+ Watch Now</button>
+            <button class="box-movie-btn" name="Trail_btn" id="Trailer1">Trailer</button>
+        </div>
+    </div>
     <script src="Homemovie_script.js"></script>
     <script>
-        createMovieBox('movie1', 'Watch1', 'Trailer1');
         createMovieBox('movie2', 'Watch2', 'Trailer2');
+        createMovieBox('movie3', 'Watch3', 'Trailer3');
+        createMovieBox('movie4', 'Watch4', 'Trailer4');
+        createMovieBox('movie5', 'Watch5', 'Trailer5');
     </script>
-    </main>
 </body>
 </html>
