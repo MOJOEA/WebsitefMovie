@@ -1,7 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1A1A1D, #3B1C32, #6A1E55);
+    background:url('img/backgrounds/backgrounds1.png'),
+    linear-gradient(to right, #1A1A1D, #3B1C32, #440c34);
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -49,6 +57,31 @@ main {
     margin-left: 10px;
 }
 /*------------------------------------------------------------------*/
+.title-container {
+    box-shadow: 0 0 20px #778899;
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+
+    width: 76%; 
+    max-width: 1500px;
+    height: 0px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-title-prat1 {
+    font-size: 24px;
+    margin: 0;
+    margin-right: 10px;
+    color: #e49709;
+}
+
 .main-container {
     background: #1A1A1D;
     border-radius: 15px;
@@ -97,6 +130,10 @@ main {
     margin-bottom: 5px;
 }
 
+.box-title {
+    width: 100%;
+    border: 2px solid #666666;
+}
 .box-movie-btn {
     background-color: transparent; 
     border-radius: 8px;
