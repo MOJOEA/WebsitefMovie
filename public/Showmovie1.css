@@ -1,6 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1A1A1D, #3B1C32, #440c34);
+    background:url('img/backgrounds/backgrounds1.png'),
+    linear-gradient(to right, #1A1A1D, #3B1C32, #440c34);
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
 
     display: flex;
     flex-direction: column;
@@ -91,7 +97,7 @@ main {
     box-shadow: #ccc 0 0 10px;
     
     width: 80%; 
-    height: 00px;
+    height: auto;
     padding: 10px;
 
     max-width: 45%;
@@ -125,7 +131,7 @@ main {
     padding: 10px;
 }
 
-.movie-score {
+.movie-score2 {
     margin: 10px 0px;
     color: #fff200;
 }
@@ -135,21 +141,21 @@ main {
     box-shadow: #ccc 0 0 10px;
 
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     gap: 20px;
 
     width: 80%; 
-    height: 100px;
+    height: 0px;
     padding: 10px;
 
     max-width: 45%;
     min-width: 550px;
-    margin-top: 350px;
 }
 
 .credit-box {
-    margin-right: clamp(18%, 25vw, 35%);
+    margin-left: 38vh;
+    margin-top: 138px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +163,8 @@ main {
 }
 
 .credit-img {
-    width: 60px;
+    width: 65px;
+    min-width: 65px;
     height: auto;
     border-radius: 100px;
     box-shadow: #ccc 0 0 10px;
