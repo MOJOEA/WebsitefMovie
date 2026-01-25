@@ -11,9 +11,9 @@ function createMovieBox(movieId, watchId, trailerId) {
     const titleBox = document.createElement('div');
     titleBox.className = 'box-movie-title';
     const rating = document.createElement('p');
-    rating.textContent = '⭐ 8.9/10 : ';
+    rating.textContent = '⭐ 8.9/10 :  ';
     const title = document.createElement('h3');
-    title.textContent = 'Arcane';
+    title.textContent = 'Movie name';
 
     titleBox.appendChild(rating);
     titleBox.appendChild(title);
@@ -31,7 +31,7 @@ function createMovieBox(movieId, watchId, trailerId) {
     trailerBtn.textContent = 'Trailer';
 
     box.appendChild(imgBox);
-    imgBox.appendChild(titleBox);
+    box.appendChild(titleBox);
     box.appendChild(watchBtn);
     box.appendChild(trailerBtn);
 
